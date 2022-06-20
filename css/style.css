@@ -5,10 +5,11 @@
     text-decoration: none;
 }
 body {
-    background: #E5E5E5;
+    background: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    color: #212121;
+    letter-spacing: 0.03em;
+    
 
 }
 /*  --- Start header---- */
@@ -18,7 +19,6 @@ body {
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;     
-        letter-spacing: 0.03em;
         color: #2196F3;
 }
 .logo-accent {
@@ -38,10 +38,10 @@ body {
  {
     color: #2196F3;
 }
-
-.nav-list-link:active {
-    color: aqua;
+.nav-list-link-color {
+    color: #2196F3;
 }
+
 .contact-number {
         font-weight: 500;
         line-height: 1.14;
@@ -71,7 +71,6 @@ body {
             text-align: center;
             letter-spacing: 0.06em;
             text-transform: uppercase;
-        
             color: #FFFFFF;
     }
     .bacground {
@@ -103,12 +102,12 @@ body {
 .about-title {
         font-weight: 700;
         line-height: 1.14;
-        letter-spacing: 0.03em;
+        font-size: 14px;
         text-transform: uppercase;
+        color: #212121;
 }
 .about-text {
-        line-height: 1.71;
-        letter-spacing: 0.03em;   
+        line-height: 1.71;  
         color: #757575;
 }
 /* --- End about---- */
@@ -118,18 +117,17 @@ body {
         font-weight: 700;
         font-size: 36px;
         line-height: 1.67;
-        letter-spacing: 0.03em;
+        color: #212121;
 }
 .user-content {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.19;
-        letter-spacing: 0.03em;
+        color: #212121;
 }
 .job-title {
         font-size: 16px;
         line-height: 1.19; 
-        letter-spacing: 0.03em;
         color: #757575;
 }
 /* ---- End content---- */
@@ -138,11 +136,11 @@ body {
         position: absolute;
         width: 1600px;
         height: 252px;
-                background: #2F303A;
+        background: #2F303A;
 }
 .address-list-nav {
         line-height: 1.71;
-        letter-spacing: 0.03em;
+        font-style: normal;
          color: #FFFFFF;
 }
 .address-list-nav:hover,
@@ -150,9 +148,12 @@ body {
     color: #2196F3;
 }
 .address-list-link {
-        line-height: 1.71
-        letter-spacing: 0.03em;   
-        color: rgba(255, 255, 255, 0.6); 
+        font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.71;
+            letter-spacing: 0.03em;
+            color: rgba(255, 255, 255, 0.6);
 }
 .address-list-link:hover,
 .address-list-link:focus {
@@ -163,9 +164,9 @@ body {
 .menu-btn {
         font-weight: 500;
         font-size: 16px;
-        line-height: 1.62;    
-        letter-spacing: 0.03em;   
+        line-height: 1.62;     
         cursor: pointer;
+        color: #212121;
         
 }
 .menu-btn:hover,
@@ -178,11 +179,11 @@ body {
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;  
+        color: #212121;
 }
 .work-type {
         font-size: 16px;
-        line-height: 1.88;
-        letter-spacing: 0.03em;   
+        line-height: 1.88;  
         color: #757575;
 }
 
