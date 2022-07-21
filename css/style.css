@@ -3,7 +3,7 @@ h2,
 h3,
 p {
     margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
 }
 ul {
     margin-top: 0;
@@ -48,19 +48,18 @@ body {
 }
 .container-nav {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px
-    
+    align-items: center;   
     }
 .contact-list {
     display: flex;
     align-items: center;
+    margin-left: auto;
     
 }
 .header {
     border: 1px solid #ECECEC;
+    padding-top: 24px;
+    padding-bottom: 24px
 }
 .logo {
         margin-right: 94px;
@@ -118,50 +117,44 @@ body {
     }
     .title {
                       
-        width: 696px;
-        height: 120px;
-        left: 452px;
-        top: 280px;
-    
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 60px;
-        /* or 136% */
-    
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-        color: #FFFFFF;
+    width: 696px;
+    height: 120px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
                         
     }
-    .bacground {
-        background: #2F303A;
-        padding: 200px 452px;
-        display: flex;
-        
+.bacground {
+    background: #2F303A;
+    padding: 200px 0;
+    text-align: center;
+          
     }
-    .modal-btn {
-        margin-left: 246px;
-        margin-right: 246px;
-        margin-top: 30px;
-        width: 200px;
-        padding: 10px 25px;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.87;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
-        cursor: pointer;
-    
-        color: #FFFFFF;
-                        
-        background: #188CE8;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
+.modal-btn {
+     margin-top: 30px;
+    width: 200px;
+    padding: 10px 25px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+     letter-spacing: 0.06em;
+    cursor: pointer;
+    border: navajowhite;
+
+    color: #FFFFFF;
+                    
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
     }
         .modal-btn:hover,
         .modal-btn:focus {
@@ -171,20 +164,18 @@ body {
 /* --- End header---- */
 /* --- Start about---- */
 .about {
-    background: #FFFFFF;
-   
+       
 }
 .about-list {
         display: flex;
-        justify-content: space-between;
         flex-basis: calc((100%-120px)/4);
         margin-left: -30px;
-        margin-bottom: -30px;
+       
 }
 .about-list-item {
         margin-left: 30px;
-        margin-bottom: 30px;
-}
+        width: 270px;
+       }
 .about-title {
         font-weight: 700;
         line-height: 1.14;
@@ -228,16 +219,16 @@ body {
 }
 .team-content-item-botton {
     padding-bottom: 30px;
+    
     width: 270px;
-    height: 368px;
-    background: #FFFFFF;
+        background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 .subtitle {
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.67;
+        line-height: 1.17;
         color: #212121;
         margin-bottom: 50px;
         text-align: center;
@@ -250,7 +241,7 @@ body {
         text-align: center;
         margin-bottom: 10px;
         margin-top: 30px;
-        padding-bottom: 4px;
+        
 }
 .job-title {
         font-size: 16px;
@@ -327,16 +318,13 @@ body {
         line-height: 1.88;  
         color: #757575;
 }
-.menu-button {
-    display: flex;
-    align-items: center;
-    padding-bottom: 50px
-}
 
 .menu-list {
     display: flex;
-        align-items: center;
-        justify-content:center;
+    align-items: center;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 50px
 }
 .menu-link:not(:last-child) {
     margin-right: 8px;
@@ -344,17 +332,19 @@ body {
 .work-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between;  
+    margin-bottom: -30px;
   
 }
 .work-content-list {
-    flex-basis: calc((100%-90px)/3)
-    margin-left: 30px;
+    flex-basis: calc((100%-90px)/3);
     margin-bottom: 30px;
 }
 .work-content-list-section {
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
+    border-top: 1px;
     padding: 20px 24px;  
+    width: 370px;
 }
 /* ---- End portfolio--- */
